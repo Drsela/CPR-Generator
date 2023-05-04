@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  max-height: 100%;
+  flex-direction: column;
+}
+
+.gap {
+    gap: 8px;
+}
+
+mat-list {
+    flex-grow: 1;
+    overflow: auto;
+}
